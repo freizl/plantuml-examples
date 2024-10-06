@@ -1,0 +1,7 @@
+#+title: Open Icons
+
+#+begin_src plantuml :file open-icons.svg
+@startuml
+listopeniconic
+@enduml
+#+end_src

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Plantuml Examples</title>
+<title>Playground</title>
 <meta name="author" content="Haisheng Wu" />
 <meta name="generator" content="Org Mode" />
 <style type="text/css">
@@ -198,23 +198,26 @@
  <a accesskey="H" href="/"> HOME </a>
 </div><div id="content" class="content">
 <header>
-<h1 class="title">Plantuml Examples</h1>
-</header><ul class="org-ul">
-<li><a href="readme.html">readme</a></li>
-<li>activity
-<ul class="org-ul">
-<li><a href="activity/with-ui-mock.html">With UI Mock</a></li>
-</ul></li>
-<li>misc
-<ul class="org-ul">
-<li><a href="misc/open-icons.html">Open Icons</a></li>
-<li><a href="misc/playground.html">Playground</a></li>
-</ul></li>
-<li>objects
-<ul class="org-ul">
-<li><a href="objects/settings.html">Settings</a></li>
-</ul></li>
-</ul>
+<h1 class="title">Playground</h1>
+</header><div class="org-src-container">
+<pre class="src src-plantuml"><span style="color: #5317ac;">@startuml</span>
+rectangle <span style="color: #2544bb;">"User Interface"</span> {
+    [Login Screen]
+    [Dashboard]
+    [Settings]
+}
+rectangle <span style="color: #2544bb;">"Important Process"</span>
+
+
+<span style="color: #5317ac;">@enduml</span>
+</pre>
+</div>
+
+
+<figure id="org2678afe">
+<img src="playground.svg" alt="playground.svg" class="org-svg">
+
+</figure>
 </div>
 </body>
 </html>

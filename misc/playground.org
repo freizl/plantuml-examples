@@ -1,0 +1,18 @@
+#+title: Playground
+#+setupfile: ../plantuml.setup
+
+#+begin_src plantuml :file playground.svg
+@startuml
+rectangle "User Interface" {
+    [Login Screen]
+    [Dashboard]
+    [Settings]
+}
+rectangle "Important Process"
+
+
+@enduml
+#+end_src
+
+#+RESULTS:
+[[file:playground.svg]]
