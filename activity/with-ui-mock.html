@@ -199,14 +199,42 @@
 </div><div id="content" class="content">
 <header>
 <h1 class="title">With UI Mock</h1>
-</header>
-<figure id="org4a50326">
+</header><div class="org-src-container">
+<pre class="src src-plantuml"><span style="color: #93a61a; font-weight: bold;">@startuml</span>
+
+<span style="color: #db5823; font-weight: bold;">!unquoted</span> procedure SALT($x)
+:{{\nsalt\n%invoke_procedure(<span style="color: #93a61a;">"_"</span>+$x)\n}}
+<span style="color: #db5823; font-weight: bold;">!endprocedure</span>
+
+<span style="color: #db5823; font-weight: bold;">!procedure</span> _continue()
+{^<span style="color: #93a61a;">"Next step"</span>\n  Do you want to continue? \n[Yes]|[No]\n}
+<span style="color: #db5823; font-weight: bold;">!endprocedure</span>
+
+<span style="color: #db5823; font-weight: bold;">!procedure</span> _choose()
+<span style="color: #93a61a; font-weight: bold;">skinparam</span> <span style="color: #3c98e0; font-style: italic;">handwritten</span> true\n{+\n&lt;b&gt;an example\nchoose one option\n()one\n()two\n[ok]\n}
+<span style="color: #db5823; font-weight: bold;">!endprocedure</span>
+
+<span style="color: #93a61a; font-weight: bold;">start</span>
+
+<span style="color: #93a61a; font-weight: bold;">if</span> (\n{{\nsalt\n{^<span style="color: #93a61a;">"Next step"</span>\n  Do you want to continue? \n[Yes]|[No]\n}\n}}\n) then (yes)
+
+:SALT(choose);
+
+<span style="color: #93a61a; font-weight: bold;">else</span> (no)
+
+:Bye;
+
+<span style="color: #93a61a; font-weight: bold;">endif</span>
+
+<span style="color: #93a61a; font-weight: bold;">@enduml</span>
+</pre>
+</div>
+
+
+<figure id="org3cceba0">
 <img src="activity-with-ui-mock.svg" alt="activity-with-ui-mock.svg" class="org-svg">
 
 </figure>
-</div>
-<div id="postamble" class="status">
-<p class="author">Author: Haisheng Wu</p>
 </div>
 </body>
 </html>

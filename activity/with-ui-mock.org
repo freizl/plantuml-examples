@@ -1,4 +1,5 @@
 #+title: With UI Mock
+#+setupfile: ../plantuml.setup
 
 #+begin_src plantuml :file activity-with-ui-mock.svg
 @startuml

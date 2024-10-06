@@ -1,4 +1,5 @@
 #+title: Settings
+#+setupfile: ../plantuml.setup
 
 #+begin_src plantuml :file settings.svg
 
