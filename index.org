@@ -1,6 +1,5 @@
 #+TITLE: Plantuml Examples
 
-- [[file:readme.org][readme]]
 - activity
   - [[file:activity/with-ui-mock.org][With UI Mock]]
 - misc

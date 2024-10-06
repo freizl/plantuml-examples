@@ -201,40 +201,40 @@
 <h1 class="title">Settings</h1>
 </header><div class="org-src-container">
 <pre class="src src-plantuml">
-<span style="color: #93a61a; font-weight: bold;">@startuml</span>
+<span style="color: #5317ac;">@startuml</span>
 
-<span style="color: #93a61a; font-weight: bold;">left</span> to right direction
+<span style="color: #5317ac;">left</span> to right direction
 
-<span style="color: #93a61a; font-weight: bold;">note</span> as N1
+<span style="color: #5317ac;">note</span> as N1
 This is global floating notes.
-<span style="color: #93a61a; font-weight: bold;">end</span> note
+<span style="color: #5317ac;">end</span> note
 
-<span style="color: #93a61a; font-weight: bold;">package</span> <span style="color: #93a61a;">"acme.okta.com"</span> as Okta {
-<span style="color: #93a61a; font-weight: bold;">  package</span> Applications {
-<span style="color: #93a61a; font-weight: bold;">    map</span> <span style="color: #93a61a;">"OAuth Sample App"</span> as OktaOIDCApp {
+<span style="color: #5317ac;">package</span> <span style="color: #2544bb;">"acme.okta.com"</span> as Okta {
+<span style="color: #5317ac;">  package</span> Applications {
+<span style="color: #5317ac;">    map</span> <span style="color: #2544bb;">"OAuth Sample App"</span> as OktaOIDCApp {
       client_id =&gt; c1
       client_secret =&gt; s1
-      redirect_uri =&gt; localhost:<span style="color: #7a7ed2; font-weight: bold;">9988</span>/oauth/callback
+      redirect_uri =&gt; localhost:<span style="color: #0000c0;">9988</span>/oauth/callback
     }
   }
 }
 
-<span style="color: #93a61a; font-weight: bold;">package</span> localhost {
-<span style="color: #93a61a; font-weight: bold;">  map</span> <span style="color: #93a61a;">"OIDC Sample App"</span> as SampleApp {
+<span style="color: #5317ac;">package</span> localhost {
+<span style="color: #5317ac;">  map</span> <span style="color: #2544bb;">"OIDC Sample App"</span> as SampleApp {
     client_id =&gt; c1
     client_secret =&gt; s1
   }
 }
 
-Okta.Applications<span style="color: #93a61a; font-weight: bold;">.O</span>ktaOIDCApp::client_id <span style="color: #93a61a; font-weight: bold;">--&gt;</span> localhost.SampleApp::client_id : copy
-Okta.Applications<span style="color: #93a61a; font-weight: bold;">.O</span>ktaOIDCApp::client_secret <span style="color: #93a61a; font-weight: bold;">--&gt;</span> localhost.SampleApp::client_secret : copy
+Okta.Applications<span style="color: #5317ac;">.O</span>ktaOIDCApp::client_id <span style="color: #5317ac;">--&gt;</span> localhost.SampleApp::client_id : copy
+Okta.Applications<span style="color: #5317ac;">.O</span>ktaOIDCApp::client_secret <span style="color: #5317ac;">--&gt;</span> localhost.SampleApp::client_secret : copy
 
-<span style="color: #93a61a; font-weight: bold;">@enduml</span>
+<span style="color: #5317ac;">@enduml</span>
 </pre>
 </div>
 
 
-<figure id="org5c09258">
+<figure id="orgf7d683b">
 <img src="settings.svg" alt="settings.svg" class="org-svg">
 
 </figure>

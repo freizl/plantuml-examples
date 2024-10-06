@@ -200,38 +200,38 @@
 <header>
 <h1 class="title">With UI Mock</h1>
 </header><div class="org-src-container">
-<pre class="src src-plantuml"><span style="color: #93a61a; font-weight: bold;">@startuml</span>
+<pre class="src src-plantuml"><span style="color: #5317ac;">@startuml</span>
 
-<span style="color: #db5823; font-weight: bold;">!unquoted</span> procedure SALT($x)
-:{{\nsalt\n%invoke_procedure(<span style="color: #93a61a;">"_"</span>+$x)\n}}
-<span style="color: #db5823; font-weight: bold;">!endprocedure</span>
+<span style="color: #a0132f;">!unquoted</span> procedure SALT($x)
+:{{\nsalt\n%invoke_procedure(<span style="color: #2544bb;">"_"</span>+$x)\n}}
+<span style="color: #a0132f;">!endprocedure</span>
 
-<span style="color: #db5823; font-weight: bold;">!procedure</span> _continue()
-{^<span style="color: #93a61a;">"Next step"</span>\n  Do you want to continue? \n[Yes]|[No]\n}
-<span style="color: #db5823; font-weight: bold;">!endprocedure</span>
+<span style="color: #a0132f;">!procedure</span> _continue()
+{^<span style="color: #2544bb;">"Next step"</span>\n  Do you want to continue? \n[Yes]|[No]\n}
+<span style="color: #a0132f;">!endprocedure</span>
 
-<span style="color: #db5823; font-weight: bold;">!procedure</span> _choose()
-<span style="color: #93a61a; font-weight: bold;">skinparam</span> <span style="color: #3c98e0; font-style: italic;">handwritten</span> true\n{+\n&lt;b&gt;an example\nchoose one option\n()one\n()two\n[ok]\n}
-<span style="color: #db5823; font-weight: bold;">!endprocedure</span>
+<span style="color: #a0132f;">!procedure</span> _choose()
+<span style="color: #5317ac;">skinparam</span> <span style="color: #8f0075;">handwritten</span> true\n{+\n&lt;b&gt;an example\nchoose one option\n()one\n()two\n[ok]\n}
+<span style="color: #a0132f;">!endprocedure</span>
 
-<span style="color: #93a61a; font-weight: bold;">start</span>
+<span style="color: #5317ac;">start</span>
 
-<span style="color: #93a61a; font-weight: bold;">if</span> (\n{{\nsalt\n{^<span style="color: #93a61a;">"Next step"</span>\n  Do you want to continue? \n[Yes]|[No]\n}\n}}\n) then (yes)
+<span style="color: #5317ac;">if</span> (\n{{\nsalt\n{^<span style="color: #2544bb;">"Next step"</span>\n  Do you want to continue? \n[Yes]|[No]\n}\n}}\n) then (yes)
 
 :SALT(choose);
 
-<span style="color: #93a61a; font-weight: bold;">else</span> (no)
+<span style="color: #5317ac;">else</span> (no)
 
 :Bye;
 
-<span style="color: #93a61a; font-weight: bold;">endif</span>
+<span style="color: #5317ac;">endif</span>
 
-<span style="color: #93a61a; font-weight: bold;">@enduml</span>
+<span style="color: #5317ac;">@enduml</span>
 </pre>
 </div>
 
 
-<figure id="org3cceba0">
+<figure id="orgfb63c4f">
 <img src="activity-with-ui-mock.svg" alt="activity-with-ui-mock.svg" class="org-svg">
 
 </figure>
