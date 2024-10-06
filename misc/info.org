@@ -1,0 +1,13 @@
+#+title: Info
+#+setupfile: ../plantuml.setup
+
+#+begin_src plantuml :file info.svg
+@startuml
+legend right
+Plantuml version: %version()
+end legend
+@enduml
+#+end_src
+
+#+RESULTS:
+[[file:info.svg]]

@@ -31,5 +31,5 @@ endif
 @enduml
 #+end_src
 
-#+RESULTS:
+#+RESULTS[ec6483898190e29bf1870599e74af58a426e4d69]:
 [[file:activity-with-ui-mock.svg]]

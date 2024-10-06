@@ -3,6 +3,7 @@
 - activity
   - [[file:activity/with-ui-mock.org][With UI Mock]]
 - misc
+  - [[file:misc/info.org][Info]]
   - [[file:misc/open-icons.org][Open Icons]]
   - [[file:misc/playground.org][Playground]]
 - objects
