@@ -15,8 +15,6 @@
 skinparam handwritten true\n{+\n<b>an example\nchoose one option\n()one\n()two\n[ok]\n}
 !endprocedure
 
-' skinparam handwritten true
-
 start
 
 if (\n{{\nsalt\n{^"Next step"\n  Do you want to continue? \n[Yes]|[No]\n}\n}}\n) then (yes)

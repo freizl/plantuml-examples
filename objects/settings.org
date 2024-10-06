@@ -1,0 +1,37 @@
+#+title: Settings
+
+#+begin_src plantuml :file settings.svg
+
+@startuml
+
+left to right direction
+
+note as N1
+This is global floating notes.
+end note
+
+package "acme.okta.com" as Okta {
+  package Applications {
+    map "OAuth Sample App" as OktaOIDCApp {
+      client_id => c1
+      client_secret => s1
+      redirect_uri => localhost:9988/oauth/callback
+    }
+  }
+}
+
+package localhost {
+  map "OIDC Sample App" as SampleApp {
+    client_id => c1
+    client_secret => s1
+  }
+}
+
+Okta.Applications.OktaOIDCApp::client_id --> localhost.SampleApp::client_id : copy
+Okta.Applications.OktaOIDCApp::client_secret --> localhost.SampleApp::client_secret : copy
+
+@enduml
+#+end_src
+
+#+RESULTS:
+[[file:settings.svg]]
