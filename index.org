@@ -1,0 +1,6 @@
+#+TITLE: Plantuml Examples
+
+- activity
+  - [[file:activity/with-ui-mock.org][With UI Mock]]
+- objects
+  - [[file:objects/settings.org][Settings]]

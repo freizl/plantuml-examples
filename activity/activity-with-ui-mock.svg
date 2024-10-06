@@ -34,7 +34,7 @@ JVM: OpenJDK 64-Bit Server VM
 Default Encoding: UTF-8
 Language: en
 Country: US
---></g></svg><rect fill="#F1F1F1" height="34.1328" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="40" x="287" y="151.9102"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="20" x="297" y="173.5117">Bye</text><polygon fill="#F1F1F1" points="193.5,277.9102,205.5,289.9102,193.5,301.9102,181.5,289.9102,193.5,277.9102" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:1.0;" x1="90" x2="80" y1="95.9551" y2="95.9551"/><line style="stroke:#181818;stroke-width:1.0;" x1="80" x2="80" y1="95.9551" y2="151.9102"/><polygon fill="#181818" points="76,141.9102,80,151.9102,84,141.9102,80,145.9102" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="297" x2="307" y1="95.9551" y2="95.9551"/><line style="stroke:#181818;stroke-width:1.0;" x1="307" x2="307" y1="95.9551" y2="151.9102"/><polygon fill="#181818" points="303,141.9102,307,151.9102,311,141.9102,307,145.9102" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="80" x2="80" y1="271.9102" y2="289.9102"/><line style="stroke:#181818;stroke-width:1.0;" x1="80" x2="181.5" y1="289.9102" y2="289.9102"/><polygon fill="#181818" points="171.5,285.9102,181.5,289.9102,171.5,293.9102,175.5,289.9102" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="307" x2="307" y1="186.043" y2="289.9102"/><line style="stroke:#181818;stroke-width:1.0;" x1="307" x2="205.5" y1="289.9102" y2="289.9102"/><polygon fill="#181818" points="215.5,285.9102,205.5,289.9102,215.5,293.9102,211.5,289.9102" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="193.5" x2="193.5" y1="30" y2="50"/><polygon fill="#181818" points="189.5,40,193.5,50,197.5,40,193.5,44" style="stroke:#181818;stroke-width:1.0;"/><!--MD5=[56eb8526e57507d2e34c79ebc145bf12]
+--></g></svg><rect fill="#F1F1F1" height="34.1328" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="40" x="287" y="151.9102"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="20" x="297" y="173.5117">Bye</text><polygon fill="#F1F1F1" points="193.5,277.9102,205.5,289.9102,193.5,301.9102,181.5,289.9102,193.5,277.9102" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:1.0;" x1="90" x2="80" y1="95.9551" y2="95.9551"/><line style="stroke:#181818;stroke-width:1.0;" x1="80" x2="80" y1="95.9551" y2="151.9102"/><polygon fill="#181818" points="76,141.9102,80,151.9102,84,141.9102,80,145.9102" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="297" x2="307" y1="95.9551" y2="95.9551"/><line style="stroke:#181818;stroke-width:1.0;" x1="307" x2="307" y1="95.9551" y2="151.9102"/><polygon fill="#181818" points="303,141.9102,307,151.9102,311,141.9102,307,145.9102" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="80" x2="80" y1="271.9102" y2="289.9102"/><line style="stroke:#181818;stroke-width:1.0;" x1="80" x2="181.5" y1="289.9102" y2="289.9102"/><polygon fill="#181818" points="171.5,285.9102,181.5,289.9102,171.5,293.9102,175.5,289.9102" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="307" x2="307" y1="186.043" y2="289.9102"/><line style="stroke:#181818;stroke-width:1.0;" x1="307" x2="205.5" y1="289.9102" y2="289.9102"/><polygon fill="#181818" points="215.5,285.9102,205.5,289.9102,215.5,293.9102,211.5,289.9102" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="193.5" x2="193.5" y1="30" y2="50"/><polygon fill="#181818" points="189.5,40,193.5,50,197.5,40,193.5,44" style="stroke:#181818;stroke-width:1.0;"/><!--MD5=[65fd84ccd6f6e5ca8051acc2a6915594]
 @startuml
 
 !unquoted procedure SALT($x)
@@ -48,8 +48,6 @@ Country: US
 !procedure _choose()
 skinparam handwritten true\n{+\n<b>an example\nchoose one option\n()one\n()two\n[ok]\n}
 !endprocedure
-
-' skinparam handwritten true
 
 start
 
@@ -66,7 +64,6 @@ endif
 @enduml
 
 @startuml
-
 
 
 
