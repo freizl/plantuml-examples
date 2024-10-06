@@ -1,0 +1,36 @@
+#+title: With UI Mock
+
+#+begin_src plantuml :file activity-with-ui-mock.svg
+@startuml
+
+!unquoted procedure SALT($x)
+:{{\nsalt\n%invoke_procedure("_"+$x)\n}}
+!endprocedure
+
+!procedure _continue()
+{^"Next step"\n  Do you want to continue? \n[Yes]|[No]\n}
+!endprocedure
+
+!procedure _choose()
+skinparam handwritten true\n{+\n<b>an example\nchoose one option\n()one\n()two\n[ok]\n}
+!endprocedure
+
+' skinparam handwritten true
+
+start
+
+if (\n{{\nsalt\n{^"Next step"\n  Do you want to continue? \n[Yes]|[No]\n}\n}}\n) then (yes)
+
+:SALT(choose);
+
+else (no)
+
+:Bye;
+
+endif
+
+@enduml
+#+end_src
+
+#+RESULTS:
+[[file:activity-with-ui-mock.svg]]

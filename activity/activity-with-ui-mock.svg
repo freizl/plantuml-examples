@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="313px" preserveAspectRatio="none" style="width:338px;height:313px;background:#FFFFFF;" version="1.1" viewBox="0 0 338 313" width="338px" zoomAndPan="magnify"><defs/><g><ellipse cx="193.5" cy="20" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#F1F1F1" points="102,50,285,50,297,95.9551,285,141.9102,102,141.9102,90,95.9551,102,50" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="3" x="102" y="60.6348"> </text><svg x="102" y="62.9551"><defs/><g><rect fill="#FFFFFF" style="width:184px;height:67px;background:#FFFFFF;" /> <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="143" x="6" y="31.7344">Do you want to continue?</text><rect fill="#EEEEEE" height="18.1328" rx="5" ry="5" style="stroke:#000000;stroke-width:2.5;" width="28" x="8.5" y="38.7656"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="20" x="12.5" y="52.3672">Yes</text><rect fill="#EEEEEE" height="18.1328" rx="5" ry="5" style="stroke:#000000;stroke-width:2.5;" width="20" x="153.5" y="38.7656"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="16" x="155.5" y="52.3672">No</text><line style="stroke:#000000;stroke-width:1.0;" x1="5" x2="150" y1="12.0664" y2="12.0664"/><line style="stroke:#000000;stroke-width:1.0;" x1="150" x2="177" y1="12.0664" y2="12.0664"/><line style="stroke:#000000;stroke-width:1.0;" x1="5" x2="150" y1="60.3984" y2="60.3984"/><line style="stroke:#000000;stroke-width:1.0;" x1="150" x2="177" y1="60.3984" y2="60.3984"/><line style="stroke:#000000;stroke-width:1.0;" x1="5" x2="5" y1="12.0664" y2="35.2656"/><line style="stroke:#000000;stroke-width:1.0;" x1="177" x2="177" y1="35.2656" y2="60.3984"/><line style="stroke:#000000;stroke-width:1.0;" x1="177" x2="177" y1="12.0664" y2="35.2656"/><line style="stroke:#000000;stroke-width:1.0;" x1="5" x2="5" y1="35.2656" y2="60.3984"/><rect fill="#FFFFFF" height="14.1328" style="stroke:#FFFFFF;stroke-width:1.0;" width="56" x="11" y="5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="56" x="11" y="16.6016">Next step</text><!--MD5=[b00494624b29db99f7314e636a31526a]
+@startuml
+salt
+{^"Next step"
+  Do you want to continue? 
+[Yes]|[No]
+}
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 06:29:17 PDT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="3" x="102" y="139.5898"> </text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="18" x="72" y="93.6348">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="14" x="297" y="93.6348">no</text><rect fill="#F1F1F1" height="120" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="138" x="11" y="151.9102"/><svg x="21" y="161.9102"><defs/><g><rect fill="#FFFFFF" style="width:119px;height:101px;background:#FFFFFF;" /> <text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="71" x="6" y="17.6016">an example</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="105" x="6" y="33.7344">choose one option</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="21" x="26" y="49.8672">one</text><polygon fill="none" points="18.0276,46.5482,17.2947,47.5497,16.4278,49.0164,15.188,50.0049,13.8852,50.5455,12.8464,50.5924,11.5112,49.9164,10.2514,49.4747,9.2952,48.578,8.7937,47.5515,8.4962,46.7341,8.2048,45.6664,7.7318,44.7477,8.0953,43.8507,8.4137,42.868,9.6088,42.0909,10.4495,41.0825,11.4902,40.7477,12.7273,40.4593,14.3138,40.6307,15.1828,41.0405,16.193,41.2262,17.4214,42.4847,17.8497,43.8134,18.0357,44.7199,17.825,46.2138" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="20" x="26" y="66">two</text><polygon fill="none" points="18.0276,62.681,17.2947,63.6825,16.4278,65.1493,15.188,66.1378,13.8852,66.6783,12.8464,66.7252,11.5112,66.0492,10.2514,65.6075,9.2952,64.7108,8.7937,63.6843,8.4962,62.8669,8.2048,61.7993,7.7318,60.8805,8.0953,59.9835,8.4137,59.0009,9.6088,58.2237,10.4495,57.2153,11.4902,56.8805,12.7273,56.5921,14.3138,56.7635,15.1828,57.1733,16.193,57.359,17.4214,58.6176,17.8497,59.9462,18.0357,60.8527,17.825,62.3466" style="stroke:#000000;stroke-width:1.5;"/><polygon fill="#EEEEEE" points="13.5,73.0313,13.5,73.1013,15.5,72.8931,17.5,73.0957,19.5,73.1645,21.5,72.7935,23.5,73.0313,23.4901,73.0073,24.1527,73.1928,24.8653,73.4989,25.6126,73.8889,26.2402,73.9899,27.0355,74.4957,27.206,74.5663,27.1343,75.1224,27.5604,75.8847,28.0472,76.6721,28.1807,77.3132,28.5,78.0313,28.5227,78.0313,28.4894,79.6578,28.5595,81.2844,28.5797,82.9109,28.6952,84.5375,28.5,86.1641,28.7067,86.2497,28.4163,86.9578,27.9926,87.6108,27.7641,88.3445,27.5447,89.0821,27.0355,89.6996,26.9435,89.4775,26.415,90.2014,25.5835,90.1941,24.9823,90.7427,24.144,90.7187,23.5,91.1641,23.5,91.1412,21.5,91.4113,19.5,91.1478,17.5,91.1992,15.5,91.2769,13.5,91.1641,13.5531,91.2922,12.7924,90.87,12.1224,90.6667,11.3057,90.1091,10.7078,90.0801,9.9645,89.6996,10.1333,89.7695,9.8085,89.0492,9.5675,88.3636,8.937,87.5167,8.592,86.788,8.5,86.1641,8.2929,86.1641,8.4804,84.5375,8.4345,82.9109,8.7271,81.2844,8.4418,79.6578,8.5,78.0313,8.3944,77.9875,8.8632,77.3533,8.8804,76.532,9.2188,75.8437,9.8714,75.2856,9.9645,74.4957,10.02,74.6299,10.7653,74.429,11.3376,73.8108,12.1265,73.7153,12.8682,73.506,13.5,73.0313" style="stroke:#000000;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="14" x="11.5" y="86.6328">ok</text><path d="M5,5 L5,5.2802 L14.7273,4.4476 L24.4545,5.2577 L34.1818,5.5329 L43.9091,4.0488 L53.6364,4.8964 L63.3636,4.4313 L73.0909,4.4887 L82.8182,4.9091 L92.5455,4.0782 L102.2727,5.7382 L112,5 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><path d="M5,94.6641 L5,94.9443 L14.7273,94.1116 L24.4545,94.9218 L34.1818,95.197 L43.9091,93.7129 L53.6364,94.5604 L63.3636,94.0954 L73.0909,94.1527 L82.8182,94.5732 L92.5455,93.7422 L102.2727,95.4023 L112,94.6641 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><path d="M5,5 L5.0934,5 L4.8159,8.2266 L5.0859,11.4531 L5.1776,14.6797 L4.6829,17.9063 L5,21.1328 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><path d="M112,21.1328 L112.0934,21.1328 L111.8159,24.3594 L112.0859,27.5859 L112.1776,30.8125 L111.6829,34.0391 L112,37.2656 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><path d="M112,5 L112.0934,5 L111.8159,8.2266 L112.0859,11.4531 L112.1776,14.6797 L111.6829,17.9063 L112,21.1328 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><path d="M5,69.5313 L5.0934,69.5313 L4.8159,74.5578 L5.0859,79.5844 L5.1776,84.6109 L4.6829,89.6375 L5,94.6641 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><path d="M5,53.3984 L5.0934,53.3984 L4.8159,56.625 L5.0859,59.8516 L5.1776,63.0781 L4.6829,66.3047 L5,69.5313 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><path d="M112,69.5313 L112.0934,69.5313 L111.8159,74.5578 L112.0859,79.5844 L112.1776,84.6109 L111.6829,89.6375 L112,94.6641 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><path d="M5,37.2656 L5.0934,37.2656 L4.8159,40.4922 L5.0859,43.7188 L5.1776,46.9453 L4.6829,50.1719 L5,53.3984 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><path d="M112,53.3984 L112.0934,53.3984 L111.8159,56.625 L112.0859,59.8516 L112.1776,63.0781 L111.6829,66.3047 L112,69.5313 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><path d="M5,21.1328 L5.0934,21.1328 L4.8159,24.3594 L5.0859,27.5859 L5.1776,30.8125 L4.6829,34.0391 L5,37.2656 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><path d="M112,37.2656 L112.0934,37.2656 L111.8159,40.4922 L112.0859,43.7188 L112.1776,46.9453 L111.6829,50.1719 L112,53.3984 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[48f5938a6a116cd20fb56c3bd8fc34e1]
+@startuml
+salt
+skinparam handwritten true
+{+
+<b>an example
+choose one option
+()one
+()two
+[ok]
+}
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 06:29:17 PDT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg><rect fill="#F1F1F1" height="34.1328" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="40" x="287" y="151.9102"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="20" x="297" y="173.5117">Bye</text><polygon fill="#F1F1F1" points="193.5,277.9102,205.5,289.9102,193.5,301.9102,181.5,289.9102,193.5,277.9102" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:1.0;" x1="90" x2="80" y1="95.9551" y2="95.9551"/><line style="stroke:#181818;stroke-width:1.0;" x1="80" x2="80" y1="95.9551" y2="151.9102"/><polygon fill="#181818" points="76,141.9102,80,151.9102,84,141.9102,80,145.9102" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="297" x2="307" y1="95.9551" y2="95.9551"/><line style="stroke:#181818;stroke-width:1.0;" x1="307" x2="307" y1="95.9551" y2="151.9102"/><polygon fill="#181818" points="303,141.9102,307,151.9102,311,141.9102,307,145.9102" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="80" x2="80" y1="271.9102" y2="289.9102"/><line style="stroke:#181818;stroke-width:1.0;" x1="80" x2="181.5" y1="289.9102" y2="289.9102"/><polygon fill="#181818" points="171.5,285.9102,181.5,289.9102,171.5,293.9102,175.5,289.9102" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="307" x2="307" y1="186.043" y2="289.9102"/><line style="stroke:#181818;stroke-width:1.0;" x1="307" x2="205.5" y1="289.9102" y2="289.9102"/><polygon fill="#181818" points="215.5,285.9102,205.5,289.9102,215.5,293.9102,211.5,289.9102" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="193.5" x2="193.5" y1="30" y2="50"/><polygon fill="#181818" points="189.5,40,193.5,50,197.5,40,193.5,44" style="stroke:#181818;stroke-width:1.0;"/><!--MD5=[56eb8526e57507d2e34c79ebc145bf12]
+@startuml
+
+!unquoted procedure SALT($x)
+:{{\nsalt\n%invoke_procedure("_"+$x)\n}}
+!endprocedure
+
+!procedure _continue()
+{^"Next step"\n  Do you want to continue? \n[Yes]|[No]\n}
+!endprocedure
+
+!procedure _choose()
+skinparam handwritten true\n{+\n<b>an example\nchoose one option\n()one\n()two\n[ok]\n}
+!endprocedure
+
+' skinparam handwritten true
+
+start
+
+if (\n{{\nsalt\n{^"Next step"\n  Do you want to continue? \n[Yes]|[No]\n}\n}}\n) then (yes)
+
+:SALT(choose);
+
+else (no)
+
+:Bye;
+
+endif
+
+@enduml
+
+@startuml
+
+
+
+
+
+start
+
+if (\n{{\nsalt\n{^"Next step"\n  Do you want to continue? \n[Yes]|[No]\n}\n}}\n) then (yes)
+
+:{{\nsalt\nskinparam handwritten true\n{+\n<b>an example\nchoose one option\n()one\n()two\n[ok]\n}\n}};
+
+else (no)
+
+:Bye;
+
+endif
+
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 06:29:17 PDT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
