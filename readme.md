@@ -2,7 +2,8 @@
 ## References
 
 - https://plantuml.com/
-- [[https://plantuml-documentation.readthedocs.io/en/latest/][skin parameter reference]]
+- [skin parameter reference](https://plantuml-documentation.readthedocs.io/en/latest/)
+- https://github.com/joelparkerhenderson/plantuml-examples
 
 ## TODOs [0/2]
 
